@@ -10,7 +10,7 @@
 <![CDATA[
 	function Exec()	{
 		var r = new ActiveXObject("WScript.Shell").Run("calc.exe");
-		var r = new ActiveXObject("WScript.Shell").Run("echo 'hey' | Out-File .\\debug.txt; notepad.exe .\\debug.txt");
+		var r = new ActiveXObject("WScript.Shell").Run("echo 'hey' | Out-File .\debug.txt; notepad.exe .\debug.txt");
 	}
 ]]>
 </script>
